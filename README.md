@@ -61,10 +61,10 @@ A robust **Movie Recommendation System** leveraging **Machine Learning** techniq
 ---
 
 ## 🏁 Deployment
-Deploy your movie recommender on:
+Deploying movie recommender on:
 - Streamlit Cloud  
 
-*[https://movierecommendation-elvjiizhwnlsytvhnkzeei.streamlit.app/]*
+*[https://movierecommendation-100.streamlit.app/]*
 
 ---
 
