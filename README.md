@@ -1,109 +1,95 @@
-# Movie_Recommendation
-Movie Recommendation System using Machine Learning | Collaborative &amp; Content-Based Filtering | Python, Pandas, Scikit-learn, Streamlit
+# 🎬 AI-Powered Movie Recommendation System | Machine Learning | Python
 
-🎬 Movie Recommendation System
---------------------------------
-An AI-based Movie Recommendation System built using Python and Machine Learning, designed to suggest movies based on user preferences and viewing history.
+A robust **Movie Recommendation System** leveraging **Machine Learning** techniques like **Content-Based Filtering** and **Collaborative Filtering** implemented in **Python**. This project intelligently recommends movies tailored to user preferences using popular datasets such as TMDB and IMDB.
 
+---
 
+##  Features
+-  Personalized movie suggestions based on user history and preferences  
+-  Built with Scikit-learn, Pandas, NumPy for efficient ML pipeline  
+-  Utilizes TMDB/IMDB movie metadata (genres, cast, crew, ratings)  
+-  Interactive and user-friendly web app powered by Streamlit  
+-  Model accuracy validated using cosine similarity & correlation metrics  
 
-🚀 Features
+---
 
-🎯 Personalized recommendations using Content-Based & Collaborative Filtering
+## 🧩 Technologies & Methods
+- Data wrangling and preprocessing using Pandas & NumPy  
+- TF-IDF vectorization for text-based movie features  
+- Cosine similarity for finding similar movie vectors  
+- User-based collaborative filtering for personalized recommendations  
+- Exploratory Data Analysis (EDA) with Matplotlib & Seaborn visualization  
 
-🧠 Implemented with Scikit-learn, Pandas, and NumPy
+---
 
-📊 Explored TMDB/IMDB datasets
+## 🎥 Dataset
+- Sourced from **https://github.com/YBI-Foundation/Dataset/blob/main/Movies%20Recommendation.csv** on Ybi Foundation Github, containing rich metadata such as movie titles, genres, casts, crews, descriptions, and user ratings.  
 
-🌐 Optional Streamlit web app for easy interaction
+---
 
-📈 Model evaluation using similarity metrics like cosine similarity and correlation
+## 🛠 Tech Stack
+| Technology       | Usage                               |
+|------------------|-----------------------------------|
+| Python           | Core language                     |
+| Pandas & NumPy   | Data manipulation & numerical ops  |
+| Scikit-learn     | ML models & similarity computations|
+| Matplotlib, Seaborn| Data visualization               |
+| Streamlit        | Web app deployment                |
 
-🧩 Techniques Used
+---
 
-Data Preprocessing & Cleaning
+## 🔄 Workflow
+1. Collect and explore TMDB movie data  
+2. Clean and preprocess dataset  
+3. Engineer features (genres, cast, crew, overview)  
+4. Vectorize text data using TF-IDF  
+5. Calculate cosine similarity & correlations  
+6. Generate top-N movie recommendations  
+7. Streamlit-based deployment for interactive user experience  
 
-Feature Engineering (Genres, Cast, Crew)
+---
 
-TF-IDF Vectorization
+## 🔍 Sample Output
+**Input Movie:** `Inception`  
+**Recommended Movies:**  
+- Interstellar  
+- The Prestige  
+- Shutter Island  
+- Tenet  
+- Memento  
 
-Cosine Similarity
+---
 
-User-Based Collaborative Filtering
+## 🏁 Deployment
+Deploy your movie recommender on:
+- Streamlit Cloud  
 
-Exploratory Data Analysis (EDA)
+*[https://movierecommendation-elvjiizhwnlsytvhnkzeei.streamlit.app/]*
 
-Data Visualization using Matplotlib & Seaborn
+---
 
-🗂️ Dataset
+## 📊 Results & Performance
+- Achieved high accuracy in content similarity-based recommendations  
+- Scalable and lightweight model suitable for medium-sized datasets  
+- Validated recommendations with manual and similarity-based checks  
 
-Used TMDB Movie Dataset
- from Kaggle.
-It contains metadata like movie titles, genres, cast, crew, overview, and user ratings.
+---
 
-🛠️ Tools & Libraries
+## 🌟 Future Enhancements
+- Merge collaborative and content-based filtering for a hybrid approach  
+- Deep learning models like Autoencoders or transformers integration  
+- Implement user login, ratings, and feedback system  
+- Real-time recommendation updates using APIs (TMDB, IMDB)
 
-Python
+---
 
-Pandas, NumPy
+## 👨‍💻 About the Author
+**Karthik Vana**  
+📧 [karthikvana236@gmail.com](mailto:karthikvana236@gmail.com)  
+💼 [LinkedIn Profile](https://www.linkedin.com/in/karthik-vana)  
 
-Scikit-learn
+---
 
-Matplotlib, Seaborn
+## 🏷 Keywords
+AI · Machine Learning · Movie Recommendation · Python · Scikit-learn · Data Science · Streamlit · Collaborative Filtering · Content-Based Filtering · TMDB Dataset · IMDB Dataset
 
-Streamlit (for deployment)
-
-📊 Model Workflow
-Data Collection → Cleaning → Feature Engineering → 
-Vectorization → Similarity Calculation → Recommendation Generation
-
-💡 Example Output
-
-Input: Inception
-Output Recommendations:
-
-Interstellar
-
-The Prestige
-
-Shutter Island
-
-Tenet
-
-Memento
-
-🌍 Deployment
-
-Deployed using Streamlit Cloud / Hugging Face Spaces / Heroku
-Example: Live Demo Link
- (if available)
-
-📈 Results
-
-Accuracy of top-N recommendations validated manually
-
-Achieved high content similarity scores
-
-Lightweight and scalable for small to medium datasets
-
-📚 Future Enhancements
-
-Add hybrid recommendation combining both filtering types
-
-Integrate deep learning models (e.g., Autoencoders)
-
-Include user login & rating system
-
-Deploy with real-time data APIs
-
-👨‍💻 Author
-
-Karthik Vana
-📧 karthikvana236@gmail.com
-]
-💼 LinkedIn Profile
- | 🌐 https://www.linkedin.com/karthik-vana
-
-🏷️ Keywords
-
-Machine Learning, Recommendation System, Data Science, Python, Scikit-learn, Movie Dataset, Streamlit, Content-Based Filtering, Collaborative Filtering
